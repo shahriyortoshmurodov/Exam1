@@ -1,0 +1,74 @@
+.img {
+width: 250px;
+height: 300px;
+display: flex;
+box-shadow: 0px 0px 5px rgb(255, 255, 255);
+margin-left: 15px;
+margin-top: 10;
+}
+.img:hover{
+box-shadow: 0px 0px 50px rgb(255, 255, 255);
+}
+
+.button {
+font-size: auto;
+box-shadow: 0px 0px 20px rgb(0, 255, 106);
+border-radius: 12px;
+background-color: rgb(0, 255, 106);;
+padding: 10px 20px;
+width: 200px;
+text-align: center;
+   
+    
+}
+.button:hover{
+box-shadow: 0px 0px 50px rgb(0, 255, 106);
+}
+body {
+background-color: black;
+}
+.s {
+text-align: center;
+margin-top: 10px;
+margin-left: 50%;
+}
+
+.box {
+display: flex;
+gap: 30px;
+flex-wrap: wrap;
+margin: auto 5%;
+}
+
+.lo {
+width: 70px;
+height: 70px;
+border-radius: 50%;
+margin-top: 0;
+}
+.x {
+font-size: auto;
+border: 0;
+box-shadow: 0px 0px 20px rgb(0, 255, 106);
+border-radius: 12px;
+background-color: rgb(0, 255, 106);
+padding: 10px 20px;
+width: 200px;
+text-align: center; 
+align-items: center;
+margin-left: 28px;
+margin-bottom: 20px;
+}
+.x:hover {
+    box-shadow: 0px 0px 30px  rgb(0, 255, 106);
+}
+p{
+    margin-left: 15px;
+    color: white;
+}
+.container {
+ width: 80%;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content:flex-start;
+}

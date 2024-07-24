@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.con {}
+
+body {
+    background-image: url("./img/image\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1440px;
+    height: 1024px;
+    background-color: #000000;
+}
+
+.con {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+
+}
+
+.rigt {
+    display: flex;
+    align-items: center;
+}
+
+.plr {
+    background: #009FF5B5;
+    box-shadow: 0px 4px 4px 0px #DAD3FF;
+    margin-left: 40px;
+    width: 243px;
+    height: 50px;
+    border-radius: 10px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+
+
+}
+
+.pl {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.44px;
+    text-align: left;
+
+}
+
+.im1 {
+    width: 50px;
+    height: 50px;
+    top: 30px;
+    left: 52px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.mon {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    text-align: left;
+    color: #D5D5D6;
+    text-shadow: 0px 4px 4px 0px #000000e0;
+    margin-left: 35px;
+}
+.fa-caret-down {
+    color: #D5D5D6;
+    text-shadow: 0px 4px 4px 0px #000000C7;
+    width: 20px;
+    height: 12px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 7px;
+}
+
+p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    text-align: left;
+    color: #D5D5D6;
+    text-shadow: 4px 4px 0px rgba(33, 33, 33, 0.703);
+
+}
+
+.hh1 {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    text-align: center;
+    color: #000000;
+    text-shadow: 4px 4px 0px rgba(0, 102, 255, 0.623);
+
+    width: 604px;
+    height: 103px;
+    border-radius: 50px;
+    border: 11px 0px 0px 0px;
+    background: #FFC611;
+    border: 11px solid #5A5555;
+    padding: 20px 40px;
+    margin: 177px;
+    margin-left: 400px;
+}
+
+.tt {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 42.19px;
+    text-align: left;
+    color: #000000;
+    text-shadow: 4px 5px 0px rgba(251, 255, 0, 0.336);
+
+    margin: 15px 119px;
+}
+
+.bi {
+    width: 360px;
+    height: 353px;
+
+}
+
+.box {
+    width: 360px;
+    height: 420px;
+    margin-bottom: 126px;
+    background: #1F1F1F;
+    text-shadow: 4px 4px 0px rgba(255, 255, 255, 0.687);
+
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 127px;
+}
+
+h2 {
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 75px;
+    text-align: left;
+    color: #5A5555;
+    text-shadow: 1px 3px 0px rgb(255, 255, 255);
+
+    margin-top: 60px;
+    margin-left: 500px;
+
+}
+
+.bom {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+
+}
+
+.bom1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+    gap: 100px;
+}
+
+.img {
+    width: 571px;
+    height: 305px;
+
+}
+
+.oo {
+    font-family: Roboto;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 31.64px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.rem {
+    background-color: #FFC200;
+    color: #000000;
+    text-shadow: 0px 12px 17px rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 31.64px;
+    text-align: left;
+    padding: 14px 71px;
+    box-shadow: 0px 4px 18.6px 0px #ffffff;
+    border: none;
+    margin-top: 30px;
+}
+
+.rem:hover {
+    color: white;
+    background-color: #535353;
+}
+
+
+footer {
+    background: #FFC611;
+    width: 105.5%;
+    margin-top: 80px;
+    height: 130px;
+    padding-top: 30px;
+    
+}
+.rovv{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}

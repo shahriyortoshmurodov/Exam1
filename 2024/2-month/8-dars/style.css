@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    margin-top: 200px;
+    width: 786px;
+    height: 278px;
+    background: #9BF245;
+    margin: 0 auto;
+    width: 382px;
+height: 110px;
+top: 457px;
+left: 529px;
+
+
+
+}
+h1::before {
+    display: block;
+    width: 630px;
+    margin: 0 auto;
+    content: "Before";
+    background-color:  #0057FF;
+    margin: 0 auto;
+    margin-top: 260px;
+}
+h1::after {
+    display: block;
+    width: 630px;
+    margin: 0 auto;
+    content: "Before";
+    background-color: #F94A4A;
+    margin: 0 auto;
+}
+body {background-color: black;}

@@ -1,0 +1,21 @@
+.text {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-shadow: 6px 3px 1px rgba(69,44,168,0.56);
+    text-align: center;
+    width: 500px;
+}
+
+
+.di {
+    width: 400px;
+    height: 400px;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 9px 5px 39px 5px yellow;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}

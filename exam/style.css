@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.con {
+    width: 95%;
+    margin: 0 auto;
+}
+
+option {
+    background: #00000080;
+    font-family: Quantico;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.02px;
+    text-align: left;
+}
+
+
+
+.right-nav {
+    display: flex;
+    gap: 42px;
+}
+
+.sal {
+    width: 190px;
+    height: 30px;
+    border: none;
+    background-color: #404864;
+}
+
+main {
+    position: relative;
+    z-index: 1;
+    height: 595px;
+    background-image: url("./images/image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pol {
+    font-family: Quantico;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.02px;
+    text-align: left;
+    background-color: black;
+}
+
+body {
+    background: #000;
+}
+
+.so {
+    font-family: Quantico;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.32px;
+    text-align: left;
+    top: 540px;
+    left: 590px;
+    position: absolute;
+    z-index: 4;
+    color: white;
+}
+
+.t-t {
+    top: 570px;
+    left: 550px;
+    position: absolute;
+    z-index: 4;
+    color: white;
+    font-family: Quantico;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.02px;
+    text-align: center;
+
+}
+
+.inp-box {
+    display: flex;
+    align-items: center;
+}
+
+.inp-box i {
+    margin-left: -25px;
+}
+
+.sa {
+    background: #00000080;
+    width: 130px;
+    height: 30px;
+    color: white;
+    border-radius: none;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    box-shadow: 0px 0px 10px 10px #00000080;
+    width: 100%;
+    height: 70px;
+    background-color: #272C3D;
+    display: flex;
+    align-items: center;
+
+}
+
+ul {
+    display: flex;
+    font-family: Quantico;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28.6px;
+    text-align: left;
+    color: white;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+}
+
+ul li a:hover {
+    color: #FF9C28;
+}
+
+ul li a {
+
+    font-family: Quantico;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28.6px;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+
+.qq {
+    font-family: Quantico;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45.76px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+
+
+}
+
+section {
+    position: relative;
+    padding-top: 20px;
+    width: 900px;
+    height: 1300px;
+    background-color: #1B1E27;
+    margin: 0 auto;
+}
+
+.dd {
+    width: 30px;
+    height: 30px;
+}
+
+.lop {
+    width: 400px;
+    height: 234px;
+
+}
+
+
+
+.plg {
+    margin-left: 60px;
+    font-family: Quantico;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45.76px;
+    text-align: left;
+    color: white;
+    margin-top: 20px;
+}
+
+
+.pfl {
+    margin-left: 60px;
+    font-family: Quantico;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45.76px;
+    text-align: left;
+    color: white;
+    margin-top: 20px;
+}
+.hg {
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.row2 {
+    display: flex;
+    gap: 50px;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 146px;
+}
+.ji {
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+}
+.row3 {
+    display: flex;
+    gap: 50px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.right-foot {
+    display: flex;
+    align-items: center;
+}
+
+.pp {
+    width: 323px;
+    font-family: Quantico;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.02px;
+    text-align: left;
+    color: #BFBFBF;
+}
+
+.rox {
+    margin-left: 70px;
+    display: flex;
+    margin-top: 17px;
+    align-items: center;
+    gap: 27px;
+}
+.ji {
+    margin-top: 20px;
+}
+
+.mi {
+    width: 200px;
+    height: 150px;
+    top: 680px;
+    left: 393px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+
+.roww {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+footer {
+    height: 70px;
+    background-color:#272C3D;
+    align-items: center;
+}
+
+.right-foot {
+    align-items: center ;
+}

@@ -1,0 +1,42 @@
+body {
+    background-color:#70FF7E;
+}
+h1 {
+    background-color: #001ebd;
+    border-radius: 20px;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    color: #f5f5f5; 
+    width: 400px;
+    margin: 15px auto;
+    padding: 26px 25px; 
+}
+.trafic {
+    background-color: #040404;
+    border-radius: 20px;
+    width: 451px;
+    margin: 0 auto;
+    margin-top: 17px;
+    padding: 69px 30px;
+
+}
+.box {
+    border: 5px solid#28e145;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+
+}
+.red {
+    background-color: #df3636;
+}
+.yellow {
+    background-color: yellow;
+    margin-top: 40PX;
+}
+.green {
+    background-color: green;
+    margin-top: 40px;
+}

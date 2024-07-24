@@ -1,0 +1,59 @@
+.t1{
+    text-align: center;
+color: black;
+background-color: aqua;
+width: 632px;
+}
+.t2{
+    text-align: center;
+    color: black;
+    background-color: rgb(0, 0, 0);
+    width: 632px;
+}
+.t3{
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+.t4{
+    text-align: center;
+ background-color: rgb(0, 0, 0);
+    color: white;
+}
+.t5{
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+
+}
+.oq {
+    background-color: white;
+    color: black;
+    width: 70px;
+    height: 40px;
+}
+.ya {
+    text-align: center;
+    background-color: green;
+    width: 140px;
+}
+.qiz {
+    width: 200px;
+    background-color: red;
+}
+.id {
+    width: 70px;
+    background-color: yellow;
+}
+.na{
+    width: 200px;
+    background-color: yellow;
+}
+.p {
+    width: 200px;
+    background-color: yellow;
+}
+.s {
+    width: 140px;
+    background-color: yellow;
+}

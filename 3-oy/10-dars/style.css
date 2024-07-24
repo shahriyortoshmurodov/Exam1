@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    height: 300px;
+    gap: 30px;
+    margin-top: 30px;
+
+}
+
+
+.card_2 {
+    background-color: rgb(128, 128, 130);
+    width: 300px;
+    height: 300px;
+    gap: 30px;
+    margin-top: 30px;
+
+}
+
+.card_3 {
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    gap: 30px;
+    margin-top: 30px;
+}

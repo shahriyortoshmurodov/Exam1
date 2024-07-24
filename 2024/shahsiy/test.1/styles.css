@@ -1,0 +1,196 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+nav h1 {
+    font-size: 1.4rem;
+}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+}
+
+.slider-nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.slider-nav span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.slider-nav .active {
+    background-color: #333;
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.product {
+    max-width: 400px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.product img {
+    width:300px;
+    height: 350px;
+    margin-bottom: 10px;
+}
+
+.product h2 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.product .price {
+    font-size: 1rem;
+    color: #888;
+}
+
+.rating {
+    margin-bottom: 10px;
+}
+
+.rating span {
+    font-size: 2rem;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.rating .active {
+    color: yellow;
+}
+.like-btn {
+    color: white;
+    color: rgb(0, 0, 0);
+    border: 5px sandybrown;
+    background-color: transparent;
+ width: 3rem;
+
+}
+
+.rating .liked {
+    color: red;
+    background-color: transparent;
+    border: none;
+   
+}
+
+.buy-btn,
+.cart-btn {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    padding: 8px 0;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buy-btn:hover,
+.cart-btn:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.like-btn {
+    font-size: 24px; /* Increase the font size */
+    padding: 10px 20px; /* Add padding to make it larger */
+    border: none; /* Remove the default border */
+    background: none; /* Remove the default background */
+    color: red; /* Set the heart color */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: transform 0.3s ease; /* Add transition for smooth scaling effect */
+}
+
+.like-btn:hover {
+    transform: scale(1.2); /* Slightly increase size on hover */
+}

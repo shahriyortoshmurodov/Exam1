@@ -1,0 +1,83 @@
+.tes {
+    color: red;
+}
+h1 {
+    text-align: center;
+    border: 3px solid red;
+    background-color: rgb(93, 93, 255);
+border-radius: 20px;
+}
+.s {
+    width: 40%;
+    height: 50%;
+}
+.y {
+    width: 40%;
+    height: 50%;
+}
+.t3 {
+    width: 40%;
+    height: 50%;
+}
+.x {
+    width: 40%;
+    height: 50%;
+}
+.sal {
+    display: flex;
+    gap: 60px;
+    text-align: center;
+}
+.pal {
+    display: flex;
+    gap: 60px;
+}
+.tt {
+    width: 70%;
+}
+.in {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: yellow;
+}
+.q {
+    background-color: yellow;
+}
+.ta {
+    background-color: black;
+    width: 60%;
+
+}
+.tt {
+    background-color: black;
+    
+}
+.gr {
+    background-color: green;
+}
+.tttt {
+    background-color: red;
+}
+.p {
+    background-color: blueviolet;
+    width: auto;
+}
+.nash {
+    color: green;
+}
+.qizil {
+    color: red;
+}
+.s {
+    color: yellow;
+}
+.g {
+    color: grey;
+}
+.y {
+    color: green;
+}
+.video {
+    width: 40%;
+    height: 400px;
+}

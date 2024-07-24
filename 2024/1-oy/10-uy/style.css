@@ -1,0 +1,12 @@
+.for {
+    text-align: center;
+    background-color: black;
+    border-radius: 20px;
+}
+label {
+    color: yellow;
+}
+h1 {
+    text-align: center;
+    background-color: rgb(255, 208, 0);
+}

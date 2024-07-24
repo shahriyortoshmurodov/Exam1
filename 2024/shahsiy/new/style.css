@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200; 1300;1400;1500;1600;1700;1800;1900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+h2 {
+    font-size: 60px;
+    color: #131313;
+    letter-spacing: 5px;
+    cursor: pointer;
+
+}
+
+h2 span {
+    transition: 1s;
+}
+
+
+
+h2:hover span {
+    color: #fff;
+
+
+}
+
+h2:hover {
+    letter-spacing: 50px;
+    margin-top: 10px;
+}
+
+h2:active {
+    letter-spacing: 100px;
+    margin-top: 10px;
+    font-size: 330px;
+    transition: 0.2s;
+
+
+}
+
+h2::before {
+    content: attr("salom");
+}
+
+h2::after {
+    content: attr("ol");
+}
