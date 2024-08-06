@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header nav ul li {
+    margin-right: 20px;
+}
+
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-button {
+    background-color: #ff4081;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.main-article {
+    flex: 2;
+    background-color: white;
+    padding: 20px;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.author-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: #888;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.latest-articles, .tags {
+    margin-bottom: 20px;
+}
+
+.latest-articles h3, .tags h3 {
+    margin-top: 0;
+}
+
+.related-articles {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.related-articles h3 {
+    margin-top: 0;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article {
+    width: 30%;
+    text-align: center;
+}
+
+.article img {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    width: 30%;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer h4 {
+    margin-top: 0;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer form {
+    display: flex;
+}
+
+.footer form input {
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    flex: 1;
+}
+
+.footer form button {
+    padding: 10px;
+    background-color: #ff4081;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

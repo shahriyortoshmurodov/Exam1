@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.con {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bgomg {
+    background-image: url(./img/IMAGE\ \(3\).svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    filter: brightness(0.7); 
+    height: 832px;
+    padding-top: 214px;
+}
+h2 {
+    width: 453px;
+    font-family: Roboto;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 70.4px;
+    letter-spacing: 1px;
+    color: #0A044B;
+
+}
+
+
+
+.ssp {
+    display: flex;
+    gap: 5px;
+}
+.p-p {
+    width: 477px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: 0.4000000059604645px;
+    color: #0A044B;
+    margin-top: 28px;
+
+}
+.btn {
+    margin-top: 28px;
+    display: flex;
+    gap: 20px;
+}
+.r1 {
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 25.6px;
+letter-spacing: 0.4000000059604645px;
+color: #000000;
+
+
+}
+
+.row {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between
+}
+
+.sa {
+    width: ;
+    width: 189px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: #0A044B;
+    color: white;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+
+}
+.r1 {
+    margin-top: 23px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25.6px;
+    letter-spacing: 0.4000000059604645px;
+    width: 469px;
+}
+
+.as {
+    width: 94px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #0A044B;
+    border: none;
+
+}
+.sp {
+    width: 385px;
+    height: 44px;
+    width: 385px;
+    font-family: Roboto;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 43.2px;
+    letter-spacing: 0.5px;
+}
+.so {
+    
+}
+
+h1 {
+    margin-bottom: 70px;
+    font-family: Roboto;
+font-size: 44px;
+font-weight: 400;
+line-height: 57.6px;
+letter-spacing: 1px;
+width: 187px;
+margin-top: ;
+
+}

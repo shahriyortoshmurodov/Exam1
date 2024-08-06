@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('./images/image.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-form {
+    width: 500px;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.007);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+.login-form h2 {
+    font-family: inte;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #000000;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.input-group input {
+    width: 300px;
+    padding: 15px 50px 15px 20px;
+    border: none;
+    border-radius: 30px;
+    font-family: inte;
+    background: rgb(255, 255, 255);
+    color: #000000;
+    font-size: 16px;
+}
+
+.input-group .icon {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #000000;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.options a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+button a:hover {
+    color: #ffffff;
+}
+
+button a {
+    font-family: inte;
+    text-decoration: none;
+    color:black ;
+}
+button  {
+    width: 300px;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #2f6100;
+    color: white;
+}
+
+.register {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.register a {
+    color: #00ff26;
+    text-decoration: none;
+}
+
+.register a:hover {
+    text-decoration: underline;
+}

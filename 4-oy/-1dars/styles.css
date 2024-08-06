@@ -1,0 +1,202 @@
+
+
+
+.bor{
+    color: #009900;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+h1 {
+    width: 277px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+input[type="text"] {
+    padding: 5px;
+}
+
+.hero {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero img {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.hero button {
+    background-color: #00b300;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.hero button:hover {
+    background-color: #009900;
+}
+
+.category {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.category h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.category-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.card p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.card button {
+    background-color: #00b300;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #009900;
+}
+
+.ad {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.ad img {
+    max-width: 50%;
+}
+
+.ad-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.ad h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.ad p {
+    font-size: 16px;
+}
+
+.ad button {
+    background-color: #00b300;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.olp {
+    width: 99.69px;
+    height: 30.94px;
+
+}
+
+.rol {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: space-between;
+
+}
+
+.ad button:hover {
+    background-color: #009900;
+}
+
+footer {
+
+    padding: 10px 50px;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+}
+
+h3 {
+
+    font-family: Inter;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 58.09px;
+    text-align: ;
+    width: 416px;
+    color: #67B900;
+}

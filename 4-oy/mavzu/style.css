@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.con {
+    width: 85%;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(./images/IMAGE\ \(1\).svg);
+    width: 1328px;
+    height: 644px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+ul li a {
+    color: #D27487;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav {
+    height: 70px;
+    padding: 22px 36px;
+
+}
+
+.img {
+    margin: 0 auto;
+}
+
+.sec-2 {
+    background-color: #4A2B33;
+    width: 100%;
+    height: 800px;
+}
+
+.p1 {
+    font-family: Azeret Mono;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21.6px;
+    text-align: center;
+    margin-top: 220px;
+}
+
+.spa {
+    width: 869px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44.8px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 220px;
+
+}
+
+.sec-1 {
+    width: 100%;
+    height: 1277px;
+    background: #E9E9E3;
+    padding-top: 60px;
+}
+
+.roww {
+    display: flex;
+    margin-top: 120px;
+}
+
+button {
+    width: 531px;
+    height: 58px;
+    margin-top: 15px;
+
+}
+
+.me {
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    text-align: left;
+    color: #6F6F64;
+    margin-top: 15px;
+
+}
+
+.chan {
+    margin-top: 15px;
+
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44.8px;
+    text-align: left;
+    color: #6F6F64;
+    width: 558px;
+}

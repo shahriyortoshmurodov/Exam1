@@ -15,6 +15,17 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
+
+
+.li ul li a {
+    text-decoration: none;
+    color: white;
+}
+.li ul li a:hover {
+    text-decoration: none;
+    color: white;
+    transform: rotate('360deg');
+}
 .li {
     display: flex;
 }
@@ -98,13 +109,6 @@ button {
    margin-top: 5%;
    margin-left: 25%;
 }
-
-
-.card:hover {
-    transform: scale(1.01, 1.01);
-
-}
-
 .card {
     background-color: rgb(35, 35, 35);
     width: 300px;
@@ -112,7 +116,7 @@ button {
 }
 
 .card:hover {
-    box-shadow: 0px 0px 50px rgb(255, 255, 255);
+    box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.228);
 }
 
 h1 {
@@ -151,25 +155,15 @@ h1 {
     color: white;
     font-size: 50px;
 }
-.cat ul li:hover{
-    color: rgb(0, 255, 0);
-    font-size: 25px;
-}
+
 footer {
     background-color:rgb(24, 24, 24);
 }
-
-
-
-
-
-.cat ul  {
-    list-style-type: none;
-}
-
 .cat ul li{
     text-decoration: none;
     color: #ffffff;
+    margin-left: 20px;
+    line-height: 29px;
 }
 button:active {
     background-color: white;
@@ -182,6 +176,9 @@ h2{
     display: flex;
     font-size: 100px;
     color: white;
+}
+.slider .slides {
+    margin: 0;
 }
 
 h2 span{

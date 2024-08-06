@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.con {
+    width: 80%;
+    margin: 0 auto;
+}
+p {
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: center;
+    color: white;
+    margin-top: 29px;
+
+}
+
+.box {
+    margin-top: 75px;
+    width: 264px;
+    height: 250px;
+    background: #2B3844;
+}
+
+body {
+    background: #202C36;
+    
+    
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 74px;
+    flex-wrap: wrap;
+}
+.img {
+    width: 264px;
+    height: 160px;
+
+}
+
+nav {
+    display: flex ;
+    align-self: center;
+    width: 105%;
+    justify-content: space-between;
+    height: 80px;
+    background: #374857;
+    margin-bottom: 40px;
+}
+
+.n-t {
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.74px;
+    color: white;
+}
+.n-y  {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.82px;
+    color: white;
+}
+
+input {
+    width: 480px;
+    height: 56px;
+    border-radius: 6px;
+    border: none;
+    background: #2B3844;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: white;
+}
+@media (max-width:834px) {
+    .box{
+    }
+    .row {
+        gap:30px;
+        justify-content: center;
+    }
+    
+}
+@media (max-width:400px) {
+    .box{
+    }
+    .row {
+        display: flex;
+        gap:30px;
+        justify-content: center;
+    }
+    
+}

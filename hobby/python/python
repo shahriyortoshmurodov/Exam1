@@ -1,0 +1,43 @@
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from datetime import datetime
+
+# Email configuration
+SMTP_SERVER = 'smtp.gmail.com'
+SMTP_PORT = 587
+EMAIL_ADDRESS = 'your_email@gmail.com'
+EMAIL_PASSWORD = 'your_password_or_app_password'
+
+# Recipient configuration
+RECIPIENT_EMAIL = 'recipient_email@example.com'
+
+def create_email():
+    # Create message container
+    msg = MIMEMultipart()
+    msg['From'] = EMAIL_ADDRESS
+    msg['To'] = RECIPIENT_EMAIL
+    msg['Subject'] = 'Daily Report - {}'.format(datetime.now().strftime('%Y-%m-%d'))
+
+    # Create the body of the message
+    body = 'This is your daily report for {}'.format(datetime.now().strftime('%Y-%m-%d'))
+    msg.attach(MIMEText(body, 'plain'))
+
+    return msg
+
+def send_email(msg):
+    # Connect to the server
+    server = smtplib.SMTP(SMTP_SERVER, SMTP_PORT)
+    server.starttls()
+    server.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
+
+    # Send the email
+    server.sendmail(EMAIL_ADDRESS, RECIPIENT_EMAIL, msg.as_string())
+
+    # Disconnect from the server
+    server.quit()
+
+if __name__ == "__main__":
+    email_msg = create_email()
+    send_email(email_msg)
+    print('Email sent successfully!')
